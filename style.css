@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+
+    text-align: center;
+    background-color:hsl(218, 45%, 16%);
+    padding:40px 0px ;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    width: 100%;
+   
+
+
+
+}
+header h1{
+    color:rgb(7, 117, 243) ;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family:'Poppins', Arial, sans-serif ;
+
+}
+header p{
+    color:rgba(245, 245, 245, 0.703);
+    font-size: 18px;
+    margin-bottom: 20px;
+    /* font-weight: 100; */
+    text-transform: capitalize;
+    font-family: 'Poppins', Arial, sans-serif;
+;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+header a {
+   padding:10px  ;
+   margin:2px ;
+   text-transform: capitalize;
+   text-decoration: none;
+   font-size: 20px;
+   color: white;
+   /* border: 1px solid black ; */
+   border-radius: 30px;
+    background-color:hsla(219, 14%, 32%, 0.278);
+    
+    font-family: 'Poppins', Arial, sans-serif;
+    
+}
+header a:hover{
+   background-color:rgb(25, 127, 168) ;
+}
+html{
+    background-color:whitesmoke;
+    
+}
+
+#about{
+    padding: 30px;
+   
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color:white;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+  
+
+}
+#about img{
+    border:2px solid rgb(25, 25, 143);
+    border-radius: 50%;
+    position: relative;
+    left: 90px;
+    
+  
+    
+   
+    
+    
+    
+    
+    
+}
+#about figcaption {
+    text-align: center;
+    font-family: 'Poppins', Arial, sans-serif;
+    margin-bottom: 20px;
+    word-spacing: 1px;
+    font-weight: 500;
+}
+#about p{
+     font-family: 'Poppins', Arial, sans-serif;
+     text-align: justify;
+    word-spacing: 2px;
+     padding: 10px 30px;
+    
+    
+     
+   
+
+}
+#projects{
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color:white;
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+   
+  
+    
+}
+#projects h2{
+    padding: 2px;
+    
+    
+}
+#ut{
+    display: flex;
+    gap: 60px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+#one{
+    border: 1px solid rgb(235, 221, 221);
+    border-radius: 20px;
+    padding: 40px 40px;
+   
+
+}
+#one p{
+    margin-bottom: 5px;
+}
+#one a{
+    margin: 50px;
+    border: 1px solid rgb(7, 7, 62); 
+   text-align: center;
+   text-transform: capitalize;
+   font-size: 15px;
+   color: white;
+   border-radius:10%;
+    background-color:#2596be;
+    
+    font-family: 'Poppins', Arial, sans-serif;
+    text-decoration: none;
+   
+    
+    
+   
+}
+.Arvind {
+    border: 1px solid rgba(232, 227, 227, 0.518);
+    background-color: white;
+    padding: 20px;
+   
+    border-radius: 20px;
+    
+}
+.Arvind ul {
+    display:flex;
+    gap: 50px;
+    padding: 10px;
+    
+    
+}
+.Arvind ul li{
+    border: 1px solid rgb(146, 146, 146);
+    background-color:#2596be;
+    border-radius: 20px;
+    list-style: none;
+    padding: 8px;
+
+} 
+#contact h2{
+  position: relative;
+  top:auto;
+}
+
+footer{
+       padding: 30px;
+    /* margin: 10px 350px; */
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color:rgb(19, 20, 29);
+    width: 100%;
+   
+    
+    
+}
+footer h2{
+    color: white;
+    padding:2px;
+    margin: 10px;
+   
+}
+footer p{
+    color: white;
+    padding: 10px 3px;
+    
+}
+footer form{
+    color: white;
+}
+footer form input{
+    display: flex;
+    background-color: #232533;
+    color: azure;
+    height: 50px;
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+footer form textarea{
+     background-color: #232533;
+     color: azure;
+      height: 100px;
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+footer button{
+    margin: 10px 5px;
+    border:  1px solid black;
+    background-color:lch(57.96% 33.84 240.39) ;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+
+}
+ #p {
+    border-top:1px solid rgb(127, 114, 226) ;
+    
+    
+    
+}
+#p p{
+    margin-top:10px;
+}
+#last {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+   
+}
+#last a{
+    color: #2596be;
+    text-decoration: none;
+}
+@media (max-width:768px){
+
+#about,
+#projects,
+#contact,
+footer{
+    width:95%;
+    margin:20px auto;
+}
+
+#ut{
+    flex-direction:column;
+}
+
+.Arvind{
+    width:100%;
+}
+
+footer form input,
+footer form textarea{
+    width:100%;
+}
+
+header a{
+    display:inline-block;
+    margin:8px;
+}
+
+}
+#about h2,
+#projects h2,
+#contact h2,
+footer h2{
+    display: inline-block;
+    border-left: 5px solid #2596be;
+    padding-left: 10px;
+}
+
+    
+
+
