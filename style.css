@@ -96,6 +96,7 @@ html{
      text-align: justify;
     word-spacing: 2px;
      padding: 10px 30px;
+     text-align: center;
     
     
      
@@ -150,7 +151,7 @@ html{
    font-size: 10px;
    color: white;
    border-radius:10%;
-    background-color:#2595be;
+    background-color:#4f59cc;
     
     font-family: 'Poppins', Arial, sans-serif;
     text-decoration: none;
@@ -163,14 +164,13 @@ html{
     border: 1px solid rgba(232, 227, 227, 0.518);
     background-color: rgba(236, 232, 232, 0.64);
     padding: 30px;
-    margin-bottom: 10px;
-   
     border-radius: 20px;
+    
     
 }
 .Arvind ul {
     display:flex;
-    gap: 50px;
+    gap: 20px;
     padding: 10px;
     font-size: 10px;
     
@@ -178,10 +178,12 @@ html{
 }
 .Arvind ul li{
     border: 1px solid rgb(146, 146, 146);
-    background-color:#2596be;
+    background-color:#4f59cc;
     border-radius: 20px;
     list-style: none;
     padding: 8px;
+    color: white;
+    margin: 10px;
 
 } 
 #contact{
