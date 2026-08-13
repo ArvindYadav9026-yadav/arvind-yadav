@@ -9,7 +9,7 @@ header{
     padding:40px 0px ;
     margin-bottom: 50px;
     flex-wrap: wrap;
-    width: 100%;
+    /* width: 100%; */
    
 
 
@@ -62,29 +62,28 @@ html{
     border-radius: 10px;
     background-color:white;
     margin-bottom: 30px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
-    width: 100%;
-    margin: 20px;
+    /* width: 100%; */
+    margin: 60px;
+    align-items: center;
+
    
   
 
 }
-#about img{
-    border:2px solid rgb(25, 25, 143);
-    border-radius: 50%;
-     text-align: center;
-    
-    
-  
-    
-   
-    
-    
-    
-    
-    
+ #about figure {
+       display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+#about figure img {
+    border: 2px solid rgb(25, 25, 143);
+    border-radius: 50%;
+}
+  
+
 #about figcaption {
     text-align: center;
     font-family: 'Poppins', Arial, sans-serif;
@@ -108,17 +107,18 @@ html{
     border-radius: 10px;
     background-color:white;
     flex-wrap: wrap;
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin: 60px;
     
    
   
     
 }
 #projects h2{
-    padding: 2px;
+    padding:2px;
+    margin: 20px;
     
     
 }
@@ -131,7 +131,10 @@ html{
 #one{
     border: 1px solid rgb(235, 221, 221);
     border-radius: 20px;
-    padding: 40px 40px;
+    padding: 50px 40px;
+    background-color: rgba(241, 237, 233, 0.664);
+    margin: 5px;
+   
    
 
 }
@@ -139,14 +142,15 @@ html{
     margin-bottom: 5px;
 }
 #one a{
-    margin: 50px;
+    margin: 60px; 
+    padding: 5px;
     border: 1px solid rgb(7, 7, 62); 
    text-align: center;
    text-transform: capitalize;
-   font-size: 15px;
+   font-size: 10px;
    color: white;
    border-radius:10%;
-    background-color:#2596be;
+    background-color:#2595be;
     
     font-family: 'Poppins', Arial, sans-serif;
     text-decoration: none;
@@ -157,9 +161,9 @@ html{
 }
 .Arvind {
     border: 1px solid rgba(232, 227, 227, 0.518);
-    background-color: white;
-    padding: 20px;
-    margin: 20px;
+    background-color: rgba(236, 232, 232, 0.64);
+    padding: 30px;
+    margin-bottom: 10px;
    
     border-radius: 20px;
     
@@ -168,6 +172,7 @@ html{
     display:flex;
     gap: 50px;
     padding: 10px;
+    font-size: 10px;
     
     
 }
@@ -185,10 +190,11 @@ html{
     background-color: white;
     margin: 20px;
     position: relative;
+    left: 10px;
 }
 #contact h2{
   position: relative;
-  top:auto;
+  left: 10px;
 }
 #contact video{
     width: 100%;
@@ -200,7 +206,7 @@ footer{
     border: 1px solid white;
     border-radius: 10px;
     background-color:rgb(19, 20, 29);
-    width: 100%;
+    /* width: 100%; */
     margin: 20px;
    
     
